@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eunsoo124 | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;700&display=swap');
+        body { font-family: 'Pretendard', sans-serif; background-color: #f8fafc; }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body>
+    <header class="py-24 text-center bg-white border-b">
+        <h1 class="text-5xl font-extrabold mb-6 text-slate-900">안녕하세요, <span class="gradient-text text-6xl">eunsoo124</span>입니다</h1>
+        <p class="text-gray-500 text-xl max-w-2xl mx-auto leading-relaxed">개발 환경 운영지원, UI 구현, SQL 작성까지 전문성을 갖춘 효율적인 엔지니어입니다.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="card bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-2xl">
+                <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mb-8 text-blue-500 text-3xl">
+                    <i class="fa-solid fa-gears"></i>
+                </div>
+                <h2 class="text-2xl font-bold mb-4 text-slate-800">개발환경 운영지원</h2>
+                <p class="text-gray-600 leading-relaxed">CI/CD 자동화 인프라를 구축하고 Docker 컨테이너 환경을 효율적으로 관리하여 개발 생산성을 극대화합니다.</p>
+            </div>
+
+            <div class="card bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-2xl">
+                <div class="w-16 h-16 bg-teal-50 rounded-2xl flex items-center justify-center mb-8 text-teal-500 text-3xl">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h2 class="text-2xl font-bold mb-4 text-slate-800">UI 구현</h2>
+                <p class="text-gray-600 leading-relaxed">최신 프런트엔드 기술을 사용하여 모바일과 PC 모두에서 완벽한 경험을 제공하는 반응형 웹을 구현합니다.</p>
+            </div>
+
+            <div class="card bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-2xl">
+                <div class="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center mb-8 text-purple-500 text-3xl">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <h2 class="text-2xl font-bold mb-4 text-slate-800">SQL 작성</h2>
+                <p class="text-gray-600 leading-relaxed">데이터베이스 설계와 성능 최적화 쿼리 작성을 통해 대량의 데이터를 빠르고 안정적으로 처리합니다.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="py-16 text-center bg-slate-50 border-t">
+        <div class="flex justify-center space-x-8 mb-6 text-3xl text-slate-300">
+            <a href="https://github.com/eunsoo124" class="hover:text-slate-900 transition-colors"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:이메일을입력하세요" class="hover:text-blue-500 transition-colors"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="text-slate-400 font-medium">© 2024 eunsoo124. All rights reserved.</p>
+    </footer>
+</body>
+</html>
